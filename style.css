@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background-color: #383A48;
+    overflow-y: hidden; 
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.cabecalho-imagem {
+    height: 64px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 50px;
+    margin-left: 200px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 18px;
+    border-radius: 20px;
+    background-color: #2e36a7c4;
+    border: none;
+    width: 150px;
+    height: 30px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);    
+}
+
+.cabecalho-menu-item:hover {
+    background-color: rgba(74, 153, 255, 0.53);
+    margin-bottom: 0px; 
+}
+
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 0px; 
+    padding: 0px;
+    margin: 0;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px; 
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-right: 0px;
+    font-weight: 400;
+    font-size: 64px;
+    color: #ffffff;
+    margin-bottom: 0px; 
+}
+
+.conteudo-principal-escrito-subtitulo{
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ffffff; 
+}
+
+.conteudo-principal-escrito-botao{
+    background-color: #2e36a7c4;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ffffff;
+    margin-top: 50px; 
+}
+
+.conteudo-principal-escrito-botao:hover {
+    background-color: rgba(74, 153, 255, 0.53);
+    margin-bottom: 0px; 
+}
+
+.conteudo-principal-imagem{
+    height: 600px;
+    border-radius: 10px; 
+    margin-right: 0px; 
+    margin-bottom: 0px;  
+    align-items: center; 
+}
