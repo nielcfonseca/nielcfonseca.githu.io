@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,600&display=swap');
 
 * {
     margin: 0;
@@ -47,6 +48,53 @@ body {
 .cabecalho-menu-item:hover {
     background-color: rgba(74, 153, 255, 0.53);
     margin-bottom: 0px; 
+}
+
+
+.titulo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+.curso {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    width: 240px;
+    height: 40px;
+    border: 10px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 25px;
+}
+
+.aviso {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Poppins', bold;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    font-size: 14px;
+    padding: 10px;
+    margin-left: 640px;
+    background-color: #ffffff;
+    width: 400px;
+    height: 30px;
+    border: 10px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
 }
 
 /* botões para matérias */
