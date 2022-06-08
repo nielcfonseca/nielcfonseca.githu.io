@@ -48,3 +48,23 @@ body {
     background-color: rgba(74, 153, 255, 0.53);
     margin-bottom: 0px; 
 }
+
+.column {
+    float: left;
+    width: 50%;
+    align-items: center;
+    justify-content: space-around; 
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 60px;
+    margin-top: 85px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
