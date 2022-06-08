@@ -49,6 +49,30 @@ body {
     margin-bottom: 0px; 
 }
 
+
+.header {
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around; 
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 60px;
+    margin-top: 70px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    width: 240px;
+    height: 40px;
+    border: 10px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    font-weight: 400;
+    font-size: 24px;
+}
+
 .column {
     float: left;
     width: 50%;
@@ -59,7 +83,7 @@ body {
     font-weight: 400;
     font-size: 18px;
     margin-left: 60px;
-    margin-top: 85px;
+    margin-top: 40px;
   }
   
   /* Clear floats after the columns */
@@ -67,4 +91,11 @@ body {
     content: "";
     display: table;
     clear: both;
+  }
+
+  .image {
+    float: center;
+    height: 410px;
+    border-radius: 40%;
+    margin-left: 45px;   
   }
